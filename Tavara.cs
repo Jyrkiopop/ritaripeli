@@ -12,5 +12,16 @@ namespace ritaripeli
 	/// </summary>
 	internal abstract class Tavara
 	{
-	}
+        public string Nimi { get; }
+
+        protected Tavara(string nimi)
+        {
+            Nimi = nimi;
+        }
+
+        public override string ToString()
+        {
+            return Nimi;
+        }
+    }
 }
