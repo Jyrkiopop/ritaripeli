@@ -1,8 +1,9 @@
 ﻿using System;
 
-public class Nuoli
+internal class Nuoli:Tavara
 {
 	public Nuoli()
 	{
+
 	}
 }

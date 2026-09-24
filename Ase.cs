@@ -1,9 +1,12 @@
-﻿using System;
-
-public class Ase
+﻿namespace ritaripeli
 {
-	public Ase()
-	{
+    internal class Ase : Tavara
+    {
+        public int Vahinko { get; }
 
-	}
+        public Ase(string nimi, int vahinko) : base(nimi)
+        {
+            Vahinko = vahinko;
+        }
+    }
 }
